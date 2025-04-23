@@ -1,0 +1,6 @@
+Tool,TP,FP,TN,FN,Accuracy
+mnist_dj,89,0,11,0,1.0
+mnist_dlf,94,0,6,0,1.0
+mnist_dx,71,0,29,0,1.0
+mnist_ox,93,0,7,0,1.0
+mnist_sv,80,0,20,0,1.0
