@@ -44,6 +44,64 @@ This repository is structured to support experiments focused on validating the p
 To run the experiments or comparisons, clone the repository and install the required dependencies listed in `requirements.txt`.
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
 pip install -r requirements.txt
+
+###  Run SL Validator
+
+To run the **SL Validator**, use the following command:
+
+```bash
+python3 train_<dataset-name>.py --seed <seed_number> --class_img <augno> --dataset <dataset_name> --save_model
+
+###  Script Selection
+
+Choose the appropriate training script based on your dataset and research question:
+
+- `train_mnist.py` – for MNIST dataset  
+- `train_svhn.py` – for SVHN dataset  
+- `train_imagenet.py` – for ImageNet dataset
+
+These scripts are organized under the corresponding experiment folders:
+- `experiments_RQ1/`
+- `experiments_RQ2/`
+- `experiments_RQ3/`
+
+---
+
+### 🔢 Seed Values
+
+Each configuration is evaluated using **eight different random seeds** to ensure robustness:
+1200, 1304, 4020, 230302, 8040, 560602, 350502, 1304
+
+### Augmentation Levels (`--class_img`)
+
+Set the augmentation intensity using the `--class_img` flag:
+
+- `-1`: No augmentation  
+- `100`, `250`, `400`: Increasing levels of augmentation
+
+Each augmentation level is run with all seed values across all datasets to compile a comprehensive result set.
+
+###  Datasets
+
+Use the `--dataset` flag to specify the dataset:
+
+- `mnist`
+- `svhn`
+- `imagenet`
+
+This configuration enables a **systematic comparison** of SL validator performance across different datasets, augmentation levels, and random initializations—helping identify the most accurate and reliable validator for real-world applications.
+
+###  Run Different Validators
+
+- **DeepSVDD Validator**: For configuration details and a full description, [click here](#)  
+- **LLM-based Validator**: For configuration details and a full description, [click here](#)
+
+
+#REFERENCE
+
+
+
+
+
+
