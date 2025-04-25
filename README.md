@@ -36,7 +36,7 @@ To run the experiments or comparisons, clone the repository and install the requ
 ```
 pip install -r requirements.txt
 ```
-###  Run SL Validator
+###  1.Run SL Validator
 
 To run the **SL Validator**, use the following command:
 
@@ -73,7 +73,7 @@ Each augmentation level is run with all seed values across all datasets to compi
 
 This configuration enables a **systematic comparison** of SL validator performance across different datasets, augmentation levels, and random initializations—helping identify the most accurate and reliable validator for real-world applications.
 
-###  Run Different Validators
+### 2. Run Different Validators
 
 - **DeepSVDD Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/tree/main/validators_for_comparison/Deepsvdd_validators/Deep-SVDD-PyTorch)  
 - **LLM Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/blob/main/validators_for_comparison/llm_validators/README.md)
