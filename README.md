@@ -79,7 +79,7 @@ This configuration enables a **systematic comparison** of SL validator performan
 ### 2. Run Different Validators
 
 - **DeepSVDD Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/tree/main/validators_for_comparison/Deepsvdd_validators/Deep-SVDD-PyTorch)  
-- **LLM Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/blob/main/validators_for_comparison/llm_validators/README.md)
+- **LLM Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/tree/main/validators_for_comparison/llm_validators)
 - **Reconstuction-based validator** : For configuration and full description[ click here](https://github.com/deeptestai/DL-validators-benchmark/tree/main/validators_for_comparison/recont_based_validators)
 
 
