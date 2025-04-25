@@ -25,7 +25,7 @@ The LLaVA model requires image inputs in .png format rather than URLs. To run th
 ```
 Replace <dataset-name> with one of the following: mnist, svhn, or imagenet.
 
-> Note:Both GPT-4.0 and LLaVA validators use the same prompt logic, tailored to the dataset selected.The key >difference is in input type: GPT-4.0 expects URLs pointing to images.LLaVA works with local .png image files.This >dual setup allows consistent validation across models using different input modalities.
+> Note:Both GPT-4.0 and LLaVA validators use the same prompt logic, tailored to the dataset selected.The key difference is in input type: GPT-4.0 expects URLs pointing to images.LLaVA works with local .png image files.This dual setup allows consistent validation across models using different input modalities.
 
 
 
