@@ -44,7 +44,7 @@ To run the **SL Validator**, use the following command:
 python3 train_<dataset-name>.py --seed <seed_number> --class_img <augno> --dataset <dataset_name> --save_model
 ```
 
-###  Script Selection
+####  Script Selection
 
 Choose the appropriate training script based on your dataset and research question:
 
@@ -57,12 +57,12 @@ These scripts are organized under the corresponding experiment folders:
 - `experiment_RQ2`
 - `experiment_RQ3`
 
-###  Seed Values
+####  Seed Values
 
 Each configuration is evaluated using **eight different random seeds** to ensure robustness:
 1200, 1304, 4020, 230302, 8040, 560602, 350502, 1304
 
-### Augmentation Levels (`--class_img`)
+#### Augmentation Levels (`--class_img`)
 
 Set the augmentation intensity using the `--class_img` flag:
 
