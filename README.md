@@ -53,9 +53,9 @@ Choose the appropriate training script based on your dataset and research questi
 - `train_imagenet.py` – for ImageNet dataset
 
 These scripts are organized under the corresponding experiment folders:
-- `experiments_RQ1/`
-- `experiments_RQ2/`
-- `experiments_RQ3/`
+- `experiment_RQ1`
+- `experiment_RQ2`
+- `experiment_RQ3`
 
 ###  Seed Values
 
