@@ -44,7 +44,7 @@ To run the **SL Validator**, use the following command:
 python3 train_<dataset-name>.py --seed <seed_number> --class_img <augno> --dataset <dataset_name> --save_model
 ```
 
-####  Script Selection
+#####  Script Selection
 
 Choose the appropriate training script based on your dataset and research question:
 
@@ -57,12 +57,12 @@ These scripts are organized under the corresponding experiment folders:
 - `experiment_RQ2`
 - `experiment_RQ3`
 
-####  Seed Values
+#####  Seed Values
 
 Each configuration is evaluated using **eight different random seeds** to ensure robustness:
 1200, 1304, 4020, 230302, 8040, 560602, 350502, 1304
 
-#### Augmentation Levels (`--class_img`)
+##### Augmentation Levels (`--class_img`)
 
 Set the augmentation intensity using the `--class_img` flag:
 
@@ -75,11 +75,12 @@ This configuration enables a **systematic comparison** of SL validator performan
 
 ###  Run Different Validators
 
-- **DeepSVDD Validator**: For configuration details and a full description, [click hee](https://github.com/deeptestai/DL-validators-benchmark/tree/main/validators_for_comparison/Deepsvdd_validators/Deep-SVDD-PyTorch)  
-- **LLM-based Validator**: For configuration details and a full description, [click here](#)
+- **DeepSVDD Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/tree/main/validators_for_comparison/Deepsvdd_validators/Deep-SVDD-PyTorch)  
+- **LLM Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/blob/main/validators_for_comparison/llm_validators/README.md)
+- **Reconstuction-based validator** : For configuration and full description[ click here]()
 
 
-# REFERENCE
+## REFERENCE
 
 
 
