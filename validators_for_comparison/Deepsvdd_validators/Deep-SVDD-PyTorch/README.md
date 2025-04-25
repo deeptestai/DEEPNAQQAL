@@ -121,7 +121,35 @@ Example of the 32 most normal (left) and 32 most anomalous (right) test set exam
 Deep SVDD anomaly scores.
 
 ![CIFAR-10](imgs/cifar10.png?raw=true "CIFAR-10")
+#  Run Comparison-Based Code with SL Validator
 
+### ➡Running Scripts
+
+- **Run for MNIST**:This script runs the DeepSVDD-based validator for the MNIST dataset.
+  ```
+  python validation_mnist_dsvd.py
+  '''
+
+ **Run for SVHN**:This script runs the DeepSVDD-based validator for the SVHN dataset.
+ 
+  '''
+  python validation_svhn_dsvd.py
+ '''
+
+   **Run for Imagenet**:This script runs the DeepSVDD-based validator for the Imagenet dataset
+ 
+  ```
+  python validation_imgnt_dsvd.py
+ '''
+
+ > Note:The configurations used are adapted from the **DeepSVDD** method with the following details:
+
+- **MNIST**: Run using the original DeepSVDD code and configuration.
+- **SVHN**: Run by adapting the configuration settings originally used for CIFAR-10.
+- **ImageNet**: Run using the DeepSVDD configuration with additional updates and custom modifications to handle the ImageNet dataset.
+
+The scripts for SVHN and ImageNet were **custom-developed** as they were not originally provided in the standard DeepSVDD implementation.  
+These updates ensure a consistent and fair comparison across MNIST, SVHN, and ImageNet datasets.
 
 ## License
 MIT
