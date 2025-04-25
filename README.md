@@ -56,6 +56,9 @@ These scripts are organized under the corresponding experiment folders:
 - `experiment_RQ1`
 - `experiment_RQ2`
 - `experiment_RQ3`
+  
+Download pretrained classifier weights: [Click here](#)
+
 
 #####  Seed Values
 
@@ -77,7 +80,7 @@ This configuration enables a **systematic comparison** of SL validator performan
 
 - **DeepSVDD Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/tree/main/validators_for_comparison/Deepsvdd_validators/Deep-SVDD-PyTorch)  
 - **LLM Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/blob/main/validators_for_comparison/llm_validators/README.md)
-- **Reconstuction-based validator** : For configuration and full description[ click here]()
+- **Reconstuction-based validator** : For configuration and full description[ click here](https://github.com/deeptestai/DL-validators-benchmark/blob/main/validators_for_comparison/recont_based_validators/README.md)
 
 
 ## REFERENCE
