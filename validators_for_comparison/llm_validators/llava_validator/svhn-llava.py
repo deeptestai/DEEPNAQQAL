@@ -6,8 +6,8 @@ import csv
 # Configuration
 BASE_FOLDER = "output_images"  # Folder containing all images
 SUBFOLDERS = ["svhn_dj","svhn_dlf", "svhn_dx", "svhn_ox", "svhn_sv"]  # Subfolders
-LLM_API_URL = "http://localhost:11434/v1/chat/completions"  # LLaMA 3.2 Vision API
-CSV_FILE = "svhn_llama3.1_run2.csv"  # Output file
+LLM_API_URL = "http://localhost:11434/v1/chat/completions"  # LLaMA Vision API
+CSV_FILE = "svhn_llava_run2.csv"  # Output file
 MODEL_NAME = "llava"  # Updated model name
 
 # Function to encode an image to Base64
