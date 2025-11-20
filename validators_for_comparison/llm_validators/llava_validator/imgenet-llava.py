@@ -7,8 +7,8 @@ import time
 # Configuration
 BASE_FOLDER = "imagenet_png"  # Folder containing all images
 SUBFOLDERS = ["imagenet_dlf", "imagenet_dx", "imagenet_ox", "imagenet_sv"]  # Subfolders
-LLM_API_URL = "http://localhost:11434/v1/chat/completions"  # LLaMA 3.2 Vision API
-CSV_FILE = "img_llama3.1_run2.csv"  # Output file
+LLM_API_URL = "http://localhost:11434/v1/chat/completions"  # LLaMA Vision API
+CSV_FILE = "img_llama_run2.csv"  # Output file
 MODEL_NAME = "llava"  # Updated model name
 
 # Function to encode an image to Base64
