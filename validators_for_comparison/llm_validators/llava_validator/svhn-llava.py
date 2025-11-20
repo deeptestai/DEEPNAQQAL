@@ -15,7 +15,7 @@ def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
 
-# Function to send image to LLaMA 3.2 Vision for classification
+# Function to send image to LLaMA Vision for classification
 def classify_image(image_base64):
     prompt = (
         "Imagine you are an expert image assessor. "
