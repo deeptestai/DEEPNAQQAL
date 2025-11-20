@@ -5,8 +5,8 @@ import csv
 
 # Configuration
 BASE_FOLDER = "generated_images_original"  # Folder containing all images
-LLM_API_URL = "http://localhost:11434/v1/chat/completions"  # LLaMA 3.2 Vision API
-CSV_FILE = "mnist_llama3.1_run2.csv"  # Output file
+LLM_API_URL = "http://localhost:11434/v1/chat/completions"  # LLaMA Vision API
+CSV_FILE = "mnist_llava_run2.csv"  # Output file
 MODEL_NAME = "llava"  # Updated model name
 
 # Function to encode an image to Base64
@@ -14,7 +14,7 @@ def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
 
-# Function to send image to LLaMA 3.2 Vision for classification
+# Function to send image to LLaMA  Vision for classification
 def classify_image(image_base64):
     prompt = (
         "Imagine you are an expert image assessor. "
