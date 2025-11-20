@@ -8,7 +8,7 @@ import time
 BASE_FOLDER = "imagenet_png"  # Folder containing all images
 SUBFOLDERS = ["imagenet_dlf", "imagenet_dx", "imagenet_ox", "imagenet_sv"]  # Subfolders
 LLM_API_URL = "http://localhost:11434/v1/chat/completions"  # LLaMA Vision API
-CSV_FILE = "img_llama_run2.csv"  # Output file
+CSV_FILE = "img_llava_run2.csv"  # Output file
 MODEL_NAME = "llava"  # Updated model name
 
 # Function to encode an image to Base64
@@ -20,7 +20,7 @@ def encode_image(image_path):
         print(f"Error encoding {image_path}: {e}")
         return None
 
-# Function to send image to LLaMA 3.2 Vision for classification
+# Function to send image to Vision model for classification
 def classify_image(image_base64):
     prompt = (
         "Imagine you are an expert image assessor. "
