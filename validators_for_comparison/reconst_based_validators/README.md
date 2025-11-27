@@ -1,11 +1,11 @@
-#  Automated Validator (Dola and Self-Oracle)
+#  Automated Validator (DAIV and Self-Oracle)
 
-Both **Dola** and **Self-Oracle** validators use an **encoder-decoder (VAE-based) training architecture** to evaluate image validity. Below are the commands and structure to run each validator for different datasets (MNIST, SVHN, and ImageNet).
+Both **DAIV** and **Self-Oracle** validators use an **encoder-decoder (VAE-based) training architecture** to evaluate image validity. Below are the commands and structure to run each validator for different datasets (MNIST, SVHN, and ImageNet).
 
 
-###  Running Dola Validator
+###  Running DAIV Validator
 
-To run the **Dola validator**, use:
+To run the **DAIV validator**, use:
 
 ```
 python3 validity_check_dola.py
