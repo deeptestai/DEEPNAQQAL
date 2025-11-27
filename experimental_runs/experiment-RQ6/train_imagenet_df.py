@@ -67,7 +67,7 @@ print(device)
 # Get Test Indexes
 if DATASET_NAME == "imagenet":
 
-    data = create_dataset_dict("label/imagenet_labelling/data2.csv", dataset_name="imagenet",question_marks=QM_POLICY
+    data = create_dataset_dict("./experimental_data/imagenet_labels/imagenet_labelling/data2.csv", dataset_name="imagenet",question_marks=QM_POLICY
     )
     print(f"Number of samples in dataset: {len(data['x'])}")
     X = torch.Tensor(data["x"])
