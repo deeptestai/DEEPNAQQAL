@@ -7,11 +7,22 @@ Our experiments help determine **which validator performs best**, enabling devel
 
 ## Repository Structure
 
-This repository is structured to support experiments focused on validating the performance of supervised learning (SL) validators across multiple datasets and research questions. It also includes comparison validators and generated test inputs for rigorous evaluation.
+This repository is structured to support experiments focused on validating the performance of supervised learning (SL) validators across three datasets and  six research questions. It also includes comparison validators and generated test inputs for evaluation.
 
-- **experimental_data**  
-  Contains three different experiments based on three different datasets aligned with research questions. The folders are:`experiment_RQ1`,`experiment_RQ2`
-  and`experiment_RQ3`.Each folder includes SL validator training files relevant to its research question.
+- **experimental_data**
+   This folder contains merged label CSV files for all datasets, which are required for the SL validator experiments.It serves as the central location for both raw and processed data used in evaluations.
+### **`experimental_runs/`**
+
+This folder contains experiments for training and evaluating SL validators across multiple datasets, aligned with specific research questions.  
+
+- **Subfolders:**  
+  - `experiment_RQ1-2-3`  
+  - `experiment_RQ4`  
+  - `experiment_RQ5`  
+  - `experiment_RQ6`  
+
+Each subfolder includes the **main SL validator training scripts** relevant to its research question. These scripts are used to train and evaluate validators for comparison on a research question-wise basis across datasets.
+
 - **validators_for_comparison**  
   Contains three folders of different comparison validators used to benchmark against our SL validators:
   - `DeepSvdd_validators` — scripts for deep SVDD-based validators  
