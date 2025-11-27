@@ -10,8 +10,20 @@ Our experiments help determine **which validator performs best**, enabling devel
 This repository is structured to support experiments focused on validating the performance of supervised learning (SL) validators across three datasets and  six research questions. It also includes comparison validators and generated test inputs for evaluation.
 
 - **experimental_data**
-   This folder contains merged label CSV files for all datasets, which are required for the SL validator experiments.It serves as the central location for both raw and processed data used in evaluations.
-### **`experimental_runs/`**
+   This folder contains merged label CSV files for all datasets, which are required for the SL validator experiments.  
+
+  *Subfolder:* `imagenet_labels/`  
+  Contains the compiled `data2.csv` file for the ImageNet dataset.  
+
+> This folder serves as the central location for both raw and processed data used in evaluations.
+
+**Other dataset CSVs:**
+
+- `TIGvalidity - MNIST_SURVEY.csv` → Combined labels for MNIST dataset.  
+- `TIGvalidity - SVHN_SURVEY.csv` → Combined labels for SVHN dataset.  
+
+---
+- **`experimental_runs/`**
 
 This folder contains experiments for training and evaluating SL validators across multiple datasets, aligned with specific research questions.  
 
