@@ -12,10 +12,10 @@ This repository is structured to support experiments focused on validating the p
 - **experimental_data**
    This folder contains merged label CSV files for all datasets, which are required for the SL validator experiments.  
 
-  **Subfolder:** `imagenet_labels/`  
+  *Subfolder:* `imagenet_labels/`  
    Contains the compiled `data2.csv` file for the ImageNet dataset.  
 
-  **Other dataset CSVs:**
+  *Other dataset CSVs:*
 
   - `TIGvalidity - MNIST_SURVEY.csv` → Combined labels for MNIST dataset.  
   - `TIGvalidity - SVHN_SURVEY.csv` → Combined labels for SVHN dataset.
@@ -26,7 +26,7 @@ This repository is structured to support experiments focused on validating the p
 
   This folder contains experiments for training and evaluating SL validators across multiple datasets, aligned with specific research questions.  
 
-- **Subfolders:**  
+- *Subfolders:*  
   - `experiment_RQ1-2-3`  
   - `experiment_RQ4`  
   - `experiment_RQ5`  
@@ -50,7 +50,7 @@ Each subfolder includes the **main SL validator training scripts** relevant to i
 ---
 - **models**  
   Contains all models used in the main experiments to train SL validators. This includes a selection of models ranging from simple to complex. Subfolders include classifiers used in our experiments.
-
+---
 - **utils**  
   Includes all supporting files necessary for Data augmentation, Classifier loading, and Training scripts for SL validator experiments.
 ---  
