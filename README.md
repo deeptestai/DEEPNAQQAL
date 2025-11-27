@@ -5,11 +5,9 @@ This repository contains the source code and scripts used in our paper titled **
 The primary goal of this study is to **empirically compare different test input validators** designed for deep learning models. Each validator is evaluated based on its **accuracy in detecting valid vs. invalid test inputs**, as well as its ability to identify the most reliable inputs and improve overall model reliability.
 Our experiments help determine **which validator performs best**, enabling developers and researchers to select the most effective validator for real-world deep learning applications.
 
-## Repository Structure
+##  🗂 Repository Structure
 
 This repository is structured to support experiments focused on validating the performance of supervised learning (SL) validators across three datasets and  six research questions. It also includes comparison validators and generated test inputs for evaluation.
-
-## 🗂 Repository Structure
 
 - **experimental_data**  
   - Contains merged label CSV files for all datasets, required for SL validator experiments.  
