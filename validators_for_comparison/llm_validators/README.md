@@ -3,7 +3,7 @@
 This section provides instructions for running the LLM-based validators—**GPT** and **LLaVA**—to classify images as **valid** or **invalid**.
 
 
-###  1. Running GPT-4.0 Validator
+###  1. Running GPT Validators
 
 The **GPT** model is used to validate images by processing **URLs** of the images. To run the validator for a specific dataset (MNIST, SVHN, or ImageNet), execute:
 
