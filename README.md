@@ -9,12 +9,12 @@ Our experiments help determine **which validator performs best**, enabling devel
 
 This repository is structured to support experiments focused on validating the performance of supervised learning (SL) validators across three datasets and  six research questions. It also includes comparison validators and generated test inputs for evaluation.
 
-## Repository Structure
+## 🗂 Repository Structure
 
 - **experimental_data**  
   - Contains merged label CSV files for all datasets, required for SL validator experiments.  
   - **Subfolder:** `imagenet_labels/` — compiled `data2.csv` file for the ImageNet dataset  
-  - Other dataset CSVs:  
+  - 🗒 Other dataset CSVs:  
     - `TIGvalidity - MNIST_SURVEY.csv` — Combined labels for MNIST dataset  
     - `TIGvalidity - SVHN_SURVEY.csv` — Combined labels for SVHN dataset  
   > Central location for both raw and processed data used in evaluations.
@@ -33,8 +33,8 @@ This repository is structured to support experiments focused on validating the p
   - Subfolders:  
     - `DeepSvdd_validators` — Deep SVDD-based validators  
     - `llm_validators` — Large language model (LLM) validators  
-      - Subfolders: `GPT-4` and `GPT-5`  
-      - GPT-5 scripts may also generate additional validation outputs  
+            - Subfolders: `GPT-4` and `GPT-5`  
+            - GPT-5 scripts may also generate additional validation outputs  
     - `reconst_based_validators` — Reconstruction-based validators
 
 - **generated_images**  
