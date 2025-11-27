@@ -78,7 +78,7 @@ if DATASET_NAME == "imagenet":
    # y_daiv = data["y_daiv"]
    # tool = data["tool"]
 #else:
-    data = create_dataset_dict("label/imagenet_labelling/data2.csv", dataset_name=DATASET_NAME, question_marks=QM_POLICY)
+    data = create_dataset_dict("./experimental_data/imagenet_labels/imagenet_labelling/data2.csv", dataset_name=DATASET_NAME, question_marks=QM_POLICY)
     #X = torch.Tensor(X)
     # Load additional labels using create_dataset_dict
    # data = create_dataset_dict(
@@ -306,3 +306,4 @@ with open(f"{dest_folder}/SEED{RANDOM_SEED}_AUG{UPSAMPLE_TO}.txt", "w") as f:
     f.write("\n")
     f.write(f"{'Acc':5} = {acc:^10.3}|{acc_daiv:^10.3}|{acc_so:^10.3}|{acc_deepsvdd:^10.3}|{acc_llm:^10.3}|{acc_llm2:^10.3}|{acc_llm3:^10.3}")
     f.write("\n")
+
