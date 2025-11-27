@@ -85,7 +85,7 @@ def safe_ravel(cm):
 
 ### Data Preprocessing
 # Data Preprocessing
-data = create_dataset_dict("label/imagenet_labelling/data2.csv",dataset_name="imagenet",question_marks=QM_POLICY)
+data = create_dataset_dict("./experimental_data/imagenet_labels/imagenet_labelling/data2.csv",dataset_name="imagenet",question_marks=QM_POLICY)
 
 X = torch.Tensor(data["x"]).to(device)
 # Keep labels as raw strings for encoding inside the loop
