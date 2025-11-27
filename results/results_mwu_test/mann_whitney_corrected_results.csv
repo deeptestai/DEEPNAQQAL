@@ -1,0 +1,57 @@
+Dataset,Augmentation,Model,U_Statistic,P_Value,Effect_Size,Significant,Comparison
+imgenet,-1,dlf,25.0,0.007494957516935239,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,-1,dx,25.0,0.007494957516935239,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,-1,ox,25.0,0.005583616806378765,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,-1,sv,0.0,0.005583616806378765,-2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,100,dlf,25.0,0.005583616806378765,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,100,dx,25.0,0.007088720793989425,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,100,ox,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,100,sv,0.0,0.007290358091535638,-2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,250,dlf,25.0,0.007290358091535638,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,250,dx,25.0,0.007290358091535638,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,250,ox,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,250,sv,5.0,0.11369260618551544,-1.5666989036012806,Not Significant,Ours vs Both Equal
+imgenet,400,dlf,25.0,0.006694381442043654,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,400,dx,25.0,0.006694381442043654,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,400,ox,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+imgenet,400,sv,0.0,0.003976751709788651,-2.6111648393354674,Significant,Ours vs Both Equal
+mnist,-1,dlf,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,-1,dx,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,-1,ox,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,-1,sv,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,-1,dj,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,100,dlf,25.0,0.006501702373081825,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,100,dx,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,100,ox,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,100,sv,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,100,dj,25.0,0.005583616806378765,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,250,dlf,25.0,0.005583616806378765,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,250,dx,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,250,ox,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,250,sv,25.0,0.005583616806378765,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,250,dj,25.0,0.006694381442043654,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,400,dlf,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,400,dx,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,400,ox,25.0,0.003976751709788651,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,400,sv,25.0,0.006694381442043654,2.6111648393354674,Significant,Ours vs Both Equal
+mnist,400,dj,25.0,0.006694381442043654,2.6111648393354674,Significant,Ours vs Both Equal
+svhn,-1,dlf,0.0,0.007494957516935239,-2.6111648393354674,Significant,Ours vs Both Equal
+svhn,-1,dx,25.0,0.007494957516935239,2.6111648393354674,Significant,Ours vs Acc_SO
+svhn,-1,ox,15.0,0.6558364965906589,0.5222329678670935,Not Significant,Ours vs Acc_SO
+svhn,-1,sv,0.0,0.007290358091535638,-2.6111648393354674,Significant,Ours vs Both Equal
+svhn,-1,dj,10.0,0.6558364965906589,-0.5222329678670935,Not Significant,Ours vs Acc_DAIV
+svhn,100,dlf,2.5,0.02480842454780953,-2.088931871468374,Significant,Ours vs Both Equal
+svhn,100,dx,25.0,0.007494957516935239,2.6111648393354674,Significant,Ours vs Acc_SO
+svhn,100,ox,17.5,0.28205887576155886,1.044465935734187,Not Significant,Ours vs Acc_SO
+svhn,100,sv,0.0,0.007290358091535638,-2.6111648393354674,Significant,Ours vs Both Equal
+svhn,100,dj,15.0,0.6558364965906589,0.5222329678670935,Not Significant,Ours vs Acc_DAIV
+svhn,250,dlf,10.0,0.6547208460185769,-0.5222329678670935,Not Significant,Ours vs Both Equal
+svhn,250,dx,25.0,0.007494957516935239,2.6111648393354674,Significant,Ours vs Acc_SO
+svhn,250,ox,25.0,0.007290358091535638,2.6111648393354674,Significant,Ours vs Acc_SO
+svhn,250,sv,0.0,0.007290358091535638,-2.6111648393354674,Significant,Ours vs Both Equal
+svhn,250,dj,5.0,0.07070114486598297,-1.5666989036012806,Not Significant,Ours vs Acc_DAIV
+svhn,400,dlf,5.0,0.07200565755549801,-1.5666989036012806,Not Significant,Ours vs Both Equal
+svhn,400,dx,25.0,0.007494957516935239,2.6111648393354674,Significant,Ours vs Acc_SO
+svhn,400,ox,20.0,0.11879749752684605,1.5666989036012806,Not Significant,Ours vs Acc_SO
+svhn,400,sv,0.0,0.007494957516935239,-2.6111648393354674,Significant,Ours vs Both Equal
+svhn,400,dj,15.0,0.6558364965906589,0.5222329678670935,Not Significant,Ours vs Acc_DAIV

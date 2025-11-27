@@ -1,0 +1,4 @@
+Dataset,Best_Accuracy,Second_Best_Accuracy,Mann_Whitney_U,p_value,Effect_Size,Significant
+results_remove_imgenet,Acc_Ours,Acc_llm,396.5,0.947402,0.0737,No
+results_remove_mnist,Acc_Ours,Acc_SO,637.0,0.713561,0.2878,No
+results_remove_svhn,Acc_Ours,Acc_DeepSVDD,815.5,0.01627,2.3845,Yes

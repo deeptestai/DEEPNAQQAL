@@ -1,0 +1,6 @@
+Best_Accuracy,Compared_Accuracy,Dataset,Effect_Size,Mann_Whitney_U,Significant,p_value
+Acc_llm3,Acc_llm,imgenet,2.4089,539.0,Yes,0.015552
+Acc_Ours,Acc_SO,mnist,-1.3978,493.5,No,0.13919
+Acc_Ours,Acc_DeepSVDD,mnist,5.3034,1064.0,Yes,0.0
+Acc_Ours,Acc_DeepSVDD,svhn,0.4111,647.5,No,0.684222
+Acc_Ours,Acc_llm3,svhn,3.0011,868.0,Yes,0.002656

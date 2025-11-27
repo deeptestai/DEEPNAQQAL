@@ -1,0 +1,21 @@
+Dataset,Augmentation,Model,U_Statistic,P_Value,Effect_Size,Significant,Comparison
+mnist,-1,lenet,25.0,0.011667312343319386,2.6111648393354674,Significant,Ours vs Acc_SO
+mnist,100,lenet,25.0,0.011667312343319386,2.6111648393354674,Significant,Ours vs Acc_SO
+mnist,250,lenet,25.0,0.011412036386001651,2.6111648393354674,Significant,Ours vs Acc_SO
+mnist,400,lenet,25.0,0.011667312343319386,2.6111648393354674,Significant,Ours vs Acc_SO
+mnist2_transfer,-1,vgg16_transfer,25.0,0.0119252335930176,2.6111648393354674,Significant,Ours vs Acc_SO
+mnist2_transfer,100,vgg16_transfer,25.0,0.011667312343319386,2.6111648393354674,Significant,Ours vs Acc_SO
+mnist2_transfer,250,vgg16_transfer,25.0,0.011412036386001651,2.6111648393354674,Significant,Ours vs Acc_SO
+mnist2_transfer,400,vgg16_transfer,25.0,0.011667312343319386,2.6111648393354674,Significant,Ours vs Acc_SO
+svhn,-1,svhn,6.0,0.19882894401644247,-1.3578057164544433,Not Significant,Ours vs Acc_SO
+svhn,100,svhn,0.0,0.010662274714514686,-2.6111648393354674,Significant,Ours vs Acc_SO
+svhn,250,svhn,5.0,0.13756389390990328,-1.5666989036012806,Not Significant,Ours vs Acc_SO
+svhn,400,svhn,5.0,0.13756389390990328,-1.5666989036012806,Not Significant,Ours vs Acc_SO
+svhn2_transfer,-1,vgg16_transfer,25.0,0.010417773157830204,2.6111648393354674,Significant,Ours vs Acc_SO
+svhn2_transfer,100,vgg16_transfer,25.0,0.010909498364269283,2.6111648393354674,Significant,Ours vs Acc_SO
+svhn2_transfer,250,vgg16_transfer,25.0,0.010662274714514686,2.6111648393354674,Significant,Ours vs Acc_SO
+svhn2_transfer,400,vgg16_transfer,25.0,0.010662274714514686,2.6111648393354674,Significant,Ours vs Acc_SO
+imagenet,-1,imagenet,17.0,0.37109336952269756,0.9400193421607683,Not Significant,Ours vs Acc_SO
+imagenet,100,imagenet,25.0,0.009467354390313716,2.6111648393354674,Significant,Ours vs Acc_SO
+imagenet,250,imagenet,25.0,0.008561916896063825,2.6111648393354674,Significant,Ours vs Acc_SO
+imagenet,400,imagenet,24.5,0.012897488582855644,2.5067182457620487,Significant,Ours vs Acc_SO

@@ -1,0 +1,17 @@
+====================  CLASSIFICATION REPORT  ====================
+              precision    recall  f1-score   support
+
+           0       1.00      0.94      0.97        96
+           1       0.00      0.00      0.00         0
+
+    accuracy                           0.94        96
+   macro avg       0.50      0.47      0.48        96
+weighted avg       1.00      0.94      0.97        96
+
+====================    CONFUSION MATRIX     ====================
+           Ours   |   DAIV   |    SO    | DeepSVDD |   LLM    |   LLM2   |   LLM3   
+TP    =     0     |    0     |    0     |    0     |    0     |    0     |    0     
+TN    =     90    |    94    |    96    |    92    |    89    |    43    |    89    
+FP    =     6     |    2     |    0     |    4     |    7     |    53    |    7     
+FN    =     0     |    0     |    0     |    0     |    0     |    0     |    0     
+Acc   =   0.938   |  0.979   |   1.0    |  0.958   |  0.927   |  0.448   |  0.927   

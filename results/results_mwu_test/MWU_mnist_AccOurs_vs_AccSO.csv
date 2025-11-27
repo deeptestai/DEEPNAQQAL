@@ -1,0 +1,2 @@
+Dataset,Comparison,Mann_Whitney_U,p_value,Effect_Size,Significant
+MNIST,Acc_Ours vs Acc_SO,493.5,0.13919,-1.3978,No

@@ -1,0 +1,51 @@
+Dataset,Model,Training_Percentage,AVG Acc percentage,AVG Acc_ours,Delta,100% Vs all percent
+mnist,lenet,100,0.972,0.972,0.972,
+mnist,lenet,90,0.963,0.972,-0.009,90% vs 100%
+mnist,lenet,80,0.967,0.972,-0.005,80% vs 100%
+mnist,lenet,70,0.966,0.972,-0.006,70% vs 100%
+mnist,lenet,60,0.964,0.972,-0.008,60% vs 100%
+mnist,lenet,50,0.97,0.972,-0.002,50% vs 100%
+mnist,lenet,40,0.9611,0.972,-0.0109,40% vs 100%
+mnist,lenet,30,0.967,0.972,-0.005,30% vs 100%
+mnist,lenet,20,0.958,0.972,-0.014,20% vs 100%
+mnist,lenet,10,0.94,0.972,-0.032,10% vs 100%
+mnist,vgg16_transfer,100,0.981,0.981,0.981,
+mnist,vgg16_transfer,90,0.982,0.981,0.001,90% vs 100%
+mnist,vgg16_transfer,80,0.982,0.981,0.001,80% vs 100%
+mnist,vgg16_transfer,70,0.967,0.981,-0.014,70% vs 100%
+mnist,vgg16_transfer,60,0.97,0.981,-0.011,60% vs 100%
+mnist,vgg16_transfer,50,0.981,0.981,0,50% vs 100%
+mnist,vgg16_transfer,40,0.979,0.981,-0.002,40% vs 100%
+mnist,vgg16_transfer,30,0.977,0.981,-0.004,30% vs 100%
+mnist,vgg16_transfer,20,0.975,0.981,-0.006,20% vs 100%
+mnist,vgg16_transfer,10,0.967,0.981,-0.014,10% vs 100%
+svhn,svhn_transfer,100,0.768,0.769,0.769,
+svhn,svhn_transfer,90,0.78,0.769,0.011,90% vs 100%
+svhn,svhn_transfer,80,0.709,0.769,-0.06,80% vs 100%
+svhn,svhn_transfer,70,0.764,0.769,-0.005,70% vs 100%
+svhn,svhn_transfer,60,0.734,0.769,-0.035,60% vs 100%
+svhn,svhn_transfer,50,0.734,0.769,-0.035,50% vs 100%
+svhn,svhn_transfer,40,0.688,0.769,-0.081,40% vs 100%
+svhn,svhn_transfer,30,0.731,0.769,-0.038,30% vs 100%
+svhn,svhn_transfer,20,0.736,0.769,-0.033,20% vs 100%
+svhn,svhn_transfer,10,0.626,0.769,-0.143,10% vs 100%
+svhn,vgg16_transfer,100,0.878,0.859,0.859,
+svhn,vgg16_transfer,90,0.875,0.859,0.016,90% vs 100%
+svhn,vgg16_transfer,80,0.861,0.859,0.002,80% vs 100%
+svhn,vgg16_transfer,70,0.865,0.859,0.006,70% vs 100%
+svhn,vgg16_transfer,60,0.853,0.859,-0.006,60% vs 100%
+svhn,vgg16_transfer,50,0.856,0.859,-0.003,50% vs 100%
+svhn,vgg16_transfer,40,0.861,0.859,0.002,40% vs 100%
+svhn,vgg16_transfer,30,0.818,0.859,-0.041,30% vs 100%
+svhn,vgg16_transfer,20,0.824,0.859,-0.035,20% vs 100%
+svhn,vgg16_transfer,10,0.826,0.859,-0.033,10% vs 100%
+imagenet,vgg16_transfer,100,0.968,0.965,0.965,
+imagenet,vgg16_transfer,90,0.967,0.965,0.002,90% vs 100%
+imagenet,vgg16_transfer,80,0.964,0.965,-0.001,80% vs 100%
+imagenet,vgg16_transfer,70,0.977,0.965,0.012,70% vs 100%
+imagenet,vgg16_transfer,60,0.951,0.965,-0.014,60% vs 100%
+imagenet,vgg16_transfer,50,0.955,0.965,-0.01,50% vs 100%
+imagenet,vgg16_transfer,40,0.96,0.965,-0.005,40% vs 100%
+imagenet,vgg16_transfer,30,0.968,0.965,0.003,30% vs 100%
+imagenet,vgg16_transfer,20,0.904,0.965,-0.061,20% vs 100%
+imagenet,vgg16_transfer,10,0.938,0.965,-0.028,10% vs 100%

@@ -1,0 +1,15 @@
+Dataset,Mode,validator,Seed,Augmentation,Model,Acc_Ours,Acc_DAIV,Acc_SO,Acc_DeepSVDD,Acc_llm,Acc_llm2,Acc_llm3
+imagenet,remove,vgg16_transfer,1200,100,dx,0.972,0.972,0.972,0.889,1.0,0.917,0.972
+imagenet,remove,vgg16_transfer,1304,100,dx,0.972,0.972,0.972,0.917,1.0,0.861,0.972
+imagenet,remove,vgg16_transfer,4020,100,dx,1.0,0.972,0.972,0.861,1.0,0.833,1.0
+imagenet,remove,vgg16_transfer,8040,100,dx,0.972,0.972,0.944,0.861,1.0,0.889,0.972
+imagenet,remove,vgg16_transfer,230302,100,dx,0.972,0.972,0.972,0.889,1.0,0.889,0.972
+imagenet,remove,vgg16_transfer,350502,100,dx,0.972,0.972,0.972,0.889,1.0,0.861,0.972
+imagenet,remove,vgg16_transfer,560602,100,dx,0.972,0.972,0.972,0.889,1.0,0.944,1.0
+imagenet,remove,vgg16_transfer,1200,100,sv,0.926,0.778,0.778,0.704,0.519,0.852,0.667
+imagenet,remove,vgg16_transfer,1304,100,sv,0.889,0.778,0.778,0.741,0.407,0.889,0.63
+imagenet,remove,vgg16_transfer,4020,100,sv,0.778,0.778,0.741,0.815,0.519,0.778,0.815
+imagenet,remove,vgg16_transfer,8040,100,sv,0.852,0.778,0.741,0.741,0.481,0.704,0.667
+imagenet,remove,vgg16_transfer,230302,100,sv,0.778,0.778,0.778,0.704,0.519,0.778,0.63
+imagenet,remove,vgg16_transfer,350502,100,sv,0.926,0.778,0.778,0.778,0.519,0.852,0.741
+imagenet,remove,vgg16_transfer,560602,100,sv,0.889,0.778,0.741,0.704,0.407,0.741,0.63

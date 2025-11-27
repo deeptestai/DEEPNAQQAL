@@ -1,0 +1,24 @@
+Dataset,Mode,Augmentation,Model,Acc_Ours,Acc_DAIV,Acc_SO,Acc_DeepSVDD,Acc_LLM,Acc_LLM2,ACC_LLM3,Best Model,comparison,U_Statistic,P_Value,Effect_Size,Significant,Interpretation
+mnist,remove,100,dj,0.988,0.958,1,0.906,0.844,0.906,0.938,Acc_SO - 1,SO vs Ours,38.5,0.02788434032,1.788854382,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,dlf,1,0.404,1,0.758,0.465,0.96,0.263,Acc_Ours - 1,Ours vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,dx,0.843,0.108,0.161,0.559,0.774,0.677,0.849,Acc_Ours - 0.843,Ours vs llm,49,0.0009973120751,3.130495168,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,ox,0.989,0.904,0.989,0.947,0.883,0.319,0.936,Acc_Ours - 0.989,Ours vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,sv,0.979,0.979,1,0.958,0.927,0.448,0.927,Acc_SO - 1,SO vs Ours,42,0.01123529668,2.236067977,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+svhn,remove,100,dj,0.737,0.395,0.382,0.605,0.461,0.579,0.645,Acc_Ours - 0.737,Ours vs DeepSVDD,49,0.0009826138617,3.130495168,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,dlf,0.849,0.959,0.959,0.959,0.74,0.63,0.822,Acc_DAIV - 0.959,DAIV vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,dx,0.868,0.456,0.75,0.691,0.75,0.735,0.765,Acc_Ours - 0.868,Ours vs SO,49,0.0008974677658,3.130495168,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,ox,0.817,0.80,0.813,0.813,0.773,0.693,0.773,Acc_Ours - 0.817,Ours vs SO,31.5,0.294836833,0.894427191,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,sv,0.826,0.905,0.905,0.905,0.676,0.392,0.824,Acc_DAIV - 0.905,DAIV vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+imagenet,remove,100,dlf,0.951,1,0.983,0.88,0.966,0.769,1,Acc_DAIV - 1,DAIV vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,,100,dx,0.992,0.983,0.975,0.908,1,0.899,0.992,Acc_LLM - 1,llm vs Ours,49,0.0007793153545,3.130495168,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,,100,ox,1,1,0.991,1,0.949,0.991,0.983,Acc_Ours - 1,DAIV vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,,100,sv,0.773,0.773,0.761,0.761,0.477,0.773,0.705,Acc_Ours - 0.773,llm vs Ours,42,0.02020478752,2.236067977,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,,,,,,,,,,,,,,,,,
+,RQ1 comp,AVG,Mnist,0.960,0.6706,0.830,0.826,0.779,0.662,0.783,Acc_Ours - 0.9598,Acc_ours vs Acc_SO,493.5,0.13919,-1.3978,No,
+,,,svhn,0.819,0.703,0.762,0.795,0.680,0.606,0.766,Acc_Ours - 0.8194,Acc_ours vs Acc_DeepSVDD,647.5,0.684222,0.4111,No,
+,,,imagenet,0.929,0.939,0.928,0.887,0.848,0.858,0.920,Acc_DAIV - 0.939,Acc_llm vs Acc_ours,378,0.823895,-0.2294,No,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,"moderate effect size  (-0.5) means that the second group (or the control group) scores higher on the measured outcome compared to the first group, but at mediumum level"
+,,,,,,,,,,,,,,,,,"large effect of group 2 mean SO  model, if value > 0.8 very large effect size, -2.6 mean second group shows high effect size"
+,,,,,,,,,,,,,,,,,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+

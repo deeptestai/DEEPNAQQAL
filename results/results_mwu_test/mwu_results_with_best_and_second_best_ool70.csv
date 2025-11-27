@@ -1,0 +1,15 @@
+Dataset,Model,Comparison,U_Statistic,P_Value,Effect_Size,Significant
+results_remove_imgenet,dlf,SO vs DAIV,35.0,0.0729291160327921,1.3416407864998738,No
+results_remove_imgenet,dx,llm vs DAIV,38.5,0.02957605392239532,1.7888543819998317,Yes
+results_remove_imgenet,ox,Ours vs DAIV,24.5,1.0,0.0,No
+results_remove_imgenet,sv,Ours vs llm,28.0,0.6916444476938407,0.4472135954999579,No
+results_remove_mnist,dj,Ours vs SO,24.5,1.0,0.0,No
+results_remove_mnist,dlf,Ours vs SO,24.5,1.0,0.0,No
+results_remove_mnist,dx,Ours vs llm,49.0,0.0018844465241654904,3.1304951684997055,Yes
+results_remove_mnist,ox,Ours vs SO,24.5,1.0,0.0,No
+results_remove_mnist,sv,Ours vs SO,24.5,1.0,0.0,No
+results_remove_svhn,dj,Ours vs DeepSVDD,49.0,0.0009826138616711895,3.1304951684997055,Yes
+results_remove_svhn,dlf,DAIV vs SO,24.5,1.0,0.0,No
+results_remove_svhn,dx,Ours vs llm,45.0,0.0072409471822377156,2.6193939164997535,Yes
+results_remove_svhn,ox,SO vs DeepSVDD,24.5,1.0,0.0,No
+results_remove_svhn,sv,Ours vs DAIV,28.0,0.39136593830755195,0.4472135954999579,No

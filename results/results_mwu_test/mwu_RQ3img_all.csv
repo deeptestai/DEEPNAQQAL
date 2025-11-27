@@ -1,0 +1,4 @@
+Dataset,Model,Comparison,U_Statistic,P_Value,Effect_Size,Significant
+imagenet,dx,llm vs llm3,42.0,0.009037407128694792,2.23606797749979,Yes
+imagenet,sv,Ours vs llm2,38.0,0.08971814670568914,1.7249667254998378,No
+imagenet,sv,Ours vs DAIV,42.0,0.011113869982093542,2.23606797749979,Yes

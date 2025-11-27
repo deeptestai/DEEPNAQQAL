@@ -1,0 +1,25 @@
+Comparison,Dataset,Effect_Size,Model,P_Value,Significant,U_Statistic
+SO vs DAIV,results_remove_imgenet,1.3416407864998738,dlf,0.07292911603279219,No,35.0
+SO vs llm3,results_remove_imgenet,1.3416407864998738,dlf,0.07292911603279219,No,35.0
+SO vs DeepSVDD,results_remove_imgenet,2.1721803209997956,dlf,0.027274948958039433,Yes,41.5
+llm vs llm3,results_remove_imgenet,0.6388765649999398,dx,0.5203168005073666,No,29.5
+llm vs DAIV,results_remove_imgenet,1.7888543819998317,dx,0.02957605392239532,Yes,38.5
+Ours vs llm3,results_remove_imgenet,0.8944271909999159,ox,0.17168169026382063,No,31.5
+Ours vs llm,results_remove_imgenet,2.6832815729997477,ox,0.0028608106931450753,Yes,45.5
+llm3 vs Ours,results_remove_imgenet,1.5333037559998557,sv,0.13555294155501302,No,36.5
+llm3 vs llm,results_remove_imgenet,2.6193939164997535,sv,0.008802717034250415,Yes,45.0
+Ours vs llm3,results_remove_mnist,1.1499778169998918,dx,0.26054937856081317,No,33.5
+Ours vs llm,results_remove_mnist,3.1304951684997055,dx,0.0019068963159599498,Yes,49.0
+Ours vs DeepSVDD,results_remove_mnist,2.6832815729997477,ox,0.0028608106931450753,Yes,45.5
+Ours vs llm3,results_remove_svhn,2.9388321989997235,dj,0.003387376470428441,Yes,47.5
+DAIV vs Ours,results_remove_svhn,0.4472135954999579,dlf,0.39136593830755184,No,28.0
+DAIV vs llm3,results_remove_svhn,3.1304951684997055,dlf,0.000911299424009574,Yes,49.0
+Ours vs llm3,results_remove_svhn,1.9805173514998136,dx,0.0486600208029437,Yes,40.0
+SO vs DAIV,results_remove_svhn,1.3416407864998738,ox,0.07292911603279219,No,35.0
+SO vs llm,results_remove_svhn,1.3416407864998738,ox,0.13410919689951079,No,35.0
+SO vs llm3,results_remove_svhn,0.8944271909999159,ox,0.3563935794771873,No,31.5
+SO vs Ours,results_remove_svhn,2.6832815729997477,ox,0.0032316732208015663,Yes,45.5
+DAIV vs SO,results_remove_svhn,0.4472135954999579,sv,0.39136593830755184,No,28.0
+DAIV vs DeepSVDD,results_remove_svhn,0.4472135954999579,sv,0.39136593830755184,No,28.0
+DAIV vs Ours,results_remove_svhn,1.2138654734998857,sv,0.10956487455917248,No,34.0
+DAIV vs llm3,results_remove_svhn,2.3638432904997777,sv,0.010335638646397726,Yes,43.0

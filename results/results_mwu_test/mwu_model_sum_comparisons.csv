@@ -1,0 +1,15 @@
+Dataset,Model,Compared With,U_Statistic,P_Value,Effect_Size,Significant
+results_remove_imgenet,dlf,dx,0.0,1.0,-1.0,No
+results_remove_imgenet,dx,ox,1.0,1.0,1.0,No
+results_remove_imgenet,sv,dx,0.0,1.0,-1.0,No
+results_remove_imgenet,ox,dx,0.0,1.0,-1.0,No
+results_remove_mnist,dlf,sv,0.5,1.0,0.0,No
+results_remove_mnist,dx,dlf,0.0,1.0,-1.0,No
+results_remove_mnist,sv,dlf,0.5,1.0,0.0,No
+results_remove_mnist,ox,dlf,0.0,1.0,-1.0,No
+results_remove_mnist,dj,dlf,0.0,1.0,-1.0,No
+results_remove_svhn,dlf,sv,0.0,1.0,-1.0,No
+results_remove_svhn,dx,sv,0.0,1.0,-1.0,No
+results_remove_svhn,sv,dlf,1.0,1.0,1.0,No
+results_remove_svhn,ox,sv,0.0,1.0,-1.0,No
+results_remove_svhn,dj,sv,0.0,1.0,-1.0,No

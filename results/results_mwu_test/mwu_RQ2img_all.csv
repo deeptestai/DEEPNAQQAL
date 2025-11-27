@@ -1,0 +1,10 @@
+Dataset,Model,Comparison,U_Statistic,P_Value,Effect_Size,Significant
+imagenet,dlf,DAIV vs llm3,24.5,1.0,0.0,No
+imagenet,dlf,DAIV vs SO,49.0,0.0004124783363855208,3.1304951684997055,Yes
+imagenet,dx,llm vs llm3,49.0,0.0004124783363855208,3.1304951684997055,Yes
+imagenet,ox,Ours vs DAIV,24.5,1.0,0.0,No
+imagenet,ox,Ours vs DeepSVDD,24.5,1.0,0.0,No
+imagenet,ox,Ours vs SO,49.0,0.0004124783363855208,3.1304951684997055,Yes
+imagenet,sv,Ours vs DAIV,24.5,1.0,0.0,No
+imagenet,sv,Ours vs llm2,24.5,1.0,0.0,No
+imagenet,sv,Ours vs SO,49.0,0.0004124783363855208,3.1304951684997055,Yes

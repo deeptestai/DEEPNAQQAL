@@ -1,0 +1,7 @@
+Dataset,Best_Accuracy,Compared_Accuracy,Mann_Whitney_U,p_value,Effect_Size,Significant
+results_remove_imgenet,Acc_Ours,Acc_llm,396.5,0.947402,0.0737,No
+results_remove_imgenet,Acc_Ours,Acc_DAIV,413.0,0.732835,0.3441,No
+results_remove_imgenet,Acc_Ours,Acc_SO,395.0,0.966866,0.0492,No
+results_remove_imgenet,Acc_Ours,Acc_DeepSVDD,538.0,0.016045,2.3925,Yes
+results_remove_mnist,Acc_Ours,Acc_llm,178.0,0.000215,3.6758,Yes
+results_remove_svhn,Acc_Ours,Acc_DeepSVDD,815.5,0.01627,2.3845,Yes

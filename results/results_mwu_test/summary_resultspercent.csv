@@ -1,0 +1,12 @@
+file,train_fraction,avg_accuracy
+results_40_percent.txt,40.0,0.9682
+results_70_percent.txt,70.0,0.9722
+results_20_percent.txt,20.0,0.9688
+results_50_percent.txt,50.0,0.9806
+results_30_percent.txt,30.0,0.9688
+results_60_percent.txt,60.0,0.9728
+SEED560602_AUG-1.txt,,
+results_100_percent.txt,100.0,0.9645
+results_90_percent.txt,90.0,0.9747
+results_80_percent.txt,80.0,0.9595
+results_10_percent.txt,10.0,0.9688

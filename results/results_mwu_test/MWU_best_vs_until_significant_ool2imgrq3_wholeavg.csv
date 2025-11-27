@@ -1,0 +1,4 @@
+Dataset,Best_Accuracy,Compared_Accuracy,Mann_Whitney_U,p_value,Effect_Size,Significant
+imagenet,Acc_Ours,Acc_DAIV,119.0,0.311729,0.9649,No
+imagenet,Acc_Ours,Acc_SO,125.0,0.201938,1.2406,No
+imagenet,Acc_Ours,Acc_llm2,157.0,0.006639,2.7109,Yes

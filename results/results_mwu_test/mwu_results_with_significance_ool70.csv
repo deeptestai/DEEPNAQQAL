@@ -1,0 +1,27 @@
+Comparison,Dataset,Effect_Size,Model,P_Value,Significant,U_Statistic
+SO vs DAIV,results_remove_imgenet,1.3416407864998738,dlf,0.07292911603279219,No,35.0
+SO vs DeepSVDD,results_remove_imgenet,2.1721803209997956,dlf,0.027274948958039433,Yes,41.5
+llm vs DAIV,results_remove_imgenet,1.7888543819998317,dx,0.02957605392239532,Yes,38.5
+Ours vs llm,results_remove_imgenet,2.6832815729997477,ox,0.0028608106931450753,Yes,45.5
+Ours vs llm,results_remove_imgenet,0.4472135954999579,sv,0.6916444476938407,No,28.0
+Ours vs llm2,results_remove_imgenet,2.5555062599997593,sv,0.009082456311589056,Yes,44.5
+Ours vs DAIV,results_remove_mnist,1.7888543819998317,dj,0.03014695228587335,Yes,38.5
+Ours vs llm2,results_remove_mnist,2.6832815729997477,dlf,0.0023025206149614066,Yes,45.5
+Ours vs llm,results_remove_mnist,3.1304951684997055,dx,0.0018844465241654904,Yes,49.0
+Ours vs SO,results_remove_mnist,0.0,ox,0.9350911631487597,No,24.5
+Ours vs DeepSVDD,results_remove_mnist,1.8527420384998257,ox,0.05181233122832817,No,39.0
+Ours vs DAIV,results_remove_mnist,2.5555062599997593,ox,0.009250073316379157,Yes,44.5
+Ours vs DAIV,results_remove_mnist,1.3416407864998738,sv,0.07292911603279219,No,35.0
+Ours vs DeepSVDD,results_remove_mnist,2.23606797749979,sv,0.01016520189195626,Yes,42.0
+Ours vs DeepSVDD,results_remove_svhn,3.1304951684997055,dj,0.0009826138616711914,Yes,49.0
+DAIV vs Ours,results_remove_svhn,0.4472135954999579,dlf,0.39136593830755184,No,28.0
+DAIV vs llm,results_remove_svhn,3.1304951684997055,dlf,0.001027148423571822,Yes,49.0
+Ours vs llm,results_remove_svhn,2.6193939164997535,dx,0.0072409471822377156,Yes,45.0
+SO vs DAIV,results_remove_svhn,1.3416407864998738,ox,0.07292911603279219,No,35.0
+SO vs Ours,results_remove_svhn,-0.4472135954999579,ox,0.6531230980322901,No,21.0
+SO vs llm,results_remove_svhn,1.3416407864998738,ox,0.13410919689951079,No,35.0
+SO vs llm2,results_remove_svhn,1.7888543819998317,ox,0.05609579220635606,No,38.5
+Ours vs DAIV,results_remove_svhn,0.4472135954999579,sv,0.39136593830755184,No,28.0
+Ours vs SO,results_remove_svhn,0.4472135954999579,sv,0.39136593830755184,No,28.0
+Ours vs DeepSVDD,results_remove_svhn,0.4472135954999579,sv,0.39136593830755184,No,28.0
+Ours vs llm,results_remove_svhn,3.1304951684997055,sv,0.0013227550166233428,Yes,49.0

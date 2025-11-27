@@ -1,0 +1,63 @@
+Dataset,Mode,Augmentation,Model,Acc_Ours,Acc_DAIV,Acc_SO,Acc_DeepSVDD,Acc_LLM,ACC_LLM2,Acc_LLM3,Best Model,comparison,U_Statistic,P_Value,Effect_Size,Significant,Interpretation
+mnist,remove,100,dj,-,,,,,,,,Ours vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,dlf,-,,,,,,,,Ours vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,dx,0.98,0.102,0.153,0.566,0.781,0.674,0.873,Acc_Ours - 0.979571428571429,Ours vs llm,49,0.001884446524,3.130495168,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,ox,1,0.944,1,0.944,0.873,0.352,0.929,Acc_Ours - 1,Ours vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,sv,-,,,,,,,,Ours vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+svhn,remove,100,dj,0.944,0.391,0.373,0.609,0.466,0.576,0.696,Acc_Ours - 0.943857142857143,Ours vs DeepSVDD,49,0.0009826138617,3.130495168,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,dlf,0.929,0.955,0.955,0.955,0.753,0.604,0.818,Acc_DAIV - 0.955,DAIV vs SO,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,dx,0.908,0.456,0.755,0.66,0.762,0.742,0.796,Acc_Ours - 0.908142857142857,Ours vs llm,45,0.007240947182,2.619393916,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,ox,0.801,0.808,0.826,0.826,0.801,0.739,0.795,Acc_SO - 0.826,SO vs DeepSVDD,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,remove,100,sv,0.919,0.913,0.913,0.913,0.689,0.354,0.839,Acc_Ours - 0.919285714285714,Ours vs DAIV,28,0.3913659383,0.4472135955,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+imagenet,remove,100,dlf,-,-,-,-,-,-,-,,SO vs DAIV,35,0.07292911603,1.341640786,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,,100,dx,0.972,0.972,0.968,0.885,1,0.885,0.98,Acc_LLM - 1,llm vs DAIV,38.5,0.02957605392,1.788854382,Yes,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,,100,ox,-,-,-,-,-,-,-,,Ours vs DAIV,24.5,1,0,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,,100,sv,0.863,0.778,0.762,0.741,0.486,0.799,0.683,Acc_Ours - 0.862571428571429,Ours vs llm,28,0.6916444477,0.4472135955,No,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,,,,,,,,,,,,,,,,,
+,RQ1 comp,AVG,Mnist,0.99,0.523,0.577,0.755,0.827,0.513,0.901,Acc_Ours - 0.989785714285714,Acc_ours vs Acc_LLM,178,0.000215,3.6758,yes,
+,,,svhn,0.9,0.704,0.764,0.793,0.694,0.603,0.789,Acc_Ours - 0.900257142857143,Acc_ours vs Acc_DeepSVDD,815.5,0.01627,2.3845,Yes,
+,,,imagenet,0.917,0.875,0.865,0.813,0.743,0.842,0.831,Acc_Ours - 0.917285714285714,Acc_ours vs DEEPSVDD,538,0.016045,2.3925,yes,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,"moderate effect size  (-0.5) means that the second group (or the control group) scores higher on the measured outcome compared to the first group, but at mediumum level"
+,,,,,,,,,,,,,,,,,"large effect of group 2 mean SO  model, if value > 0.8 very large effect size, -2.6 mean second group shows high effect size"
+,,,,,,,,,,,,,,,,,"large effect of group 1 mean ours model, if value > 0.8 very large effect size"
+,,,,,,,,,,,,,,,,,moderate effect size of group 1
+,,,,,,,,,,,,,,,,,"large effect of group 2 mean SO  model, if value > 0.8 very large effect size, -2.6 mean second group shows high effect size"
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,"A positive value, such as +2.6, indicates a very large positive effect, meaning the first group (or the experimental group) scores much higher on the measured outcome compared to the second group (or the control group)","A negative value, such as -2.6, indicates a very large negative effect, meaning the second group (or the control group) scores much higher on the measured outcome compared to the first group. Again, the difference is substantial, but it favors the opposite direction.",,,,,
