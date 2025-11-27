@@ -58,7 +58,7 @@ Each subfolder includes the **main SL validator training scripts** relevant to i
 
  This folder contains all output results generated from running the SL validators. It includes compiled CSV files and scripts for analyzing and combining validator outputs.  
 
-- **Subfolders:**  
+- *Subfolders:*  
   - `llm-label-results/` — CSV files containing labels marked by large language model (LLM) validators for generated images.  
   - `combined_map_code/` — Python scripts used to combine labels from all validators into a single file and compare statistical significance.  
   - `results_mwu/` —  output files .csv for statistical tests (e.g., Mann-Whitney U test) on validator results.  
