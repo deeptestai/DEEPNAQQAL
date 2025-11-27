@@ -68,7 +68,7 @@ torch.manual_seed(RANDOM_SEED)
 print("Num per class ", UPSAMPLE_TO)
 print("Seed ", RANDOM_SEED)
 
-df = pd.read_csv("label/imagenet_labelling/data2.csv")
+df = pd.read_csv("./experimental_data/imagenet_labels/imagenet_labelling/data2.csv")
 subfolders = ['dx', 'dlf', 'ox', 'sv']
 print(df.head())  # Display first few rows
 def process_folder(folder_name):
