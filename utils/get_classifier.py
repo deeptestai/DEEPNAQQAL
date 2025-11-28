@@ -7,9 +7,9 @@ def get_classifier(dataset):
         raise Exception(f"Dataset {dataset} not recognised! It has to be one of the following: {supported_datasets}")
     
     
-    filename_dict = {"svhn":"/home/vincenzo.riccio/human-feedback-validity-checker-dnn/models/classifiers/svhn_class.pt",
-                     "mnist": "/home/vincenzo.riccio/human-feedback-validity-checker-dnn/models/classifiers/lenet1_class.pt",
-                     "imagenet": "/home/vincenzo.riccio/human-feedback-validity-checker-dnn/models/classifiers/imagenet_class.pt"}
+    filename_dict = {"svhn":"./models/classifiers/svhn_class.pt",
+                     "mnist": "./models/classifiers/lenet1_class.pt",
+                     "imagenet": "./models/classifiers/imagenet_class.pt"}
                      
     model_classes_dict = {"svhn": pt_svhn_classifier.SVHN_classifier,
                          "mnist":   pt_lenet1.LeNet1,
@@ -20,3 +20,4 @@ def get_classifier(dataset):
 
     model_cls.load_state_dict(model_sd)
     return model_cls
+
