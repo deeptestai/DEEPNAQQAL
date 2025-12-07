@@ -2,7 +2,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -306,4 +305,5 @@ with open(f"{dest_folder}/SEED{RANDOM_SEED}_AUG{UPSAMPLE_TO}.txt", "w") as f:
     f.write("\n")
     f.write(f"{'Acc':5} = {acc:^10.3}|{acc_daiv:^10.3}|{acc_so:^10.3}|{acc_deepsvdd:^10.3}|{acc_llm:^10.3}|{acc_llm2:^10.3}|{acc_llm3:^10.3}")
     f.write("\n")
+
 
