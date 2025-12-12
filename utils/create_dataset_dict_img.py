@@ -53,7 +53,7 @@ def create_dataset_dict(input_data, dataset_name, question_marks="remove"):
         tool = image_info["TOOL"]
         file = image_info["file"]
 
-        images_folder = f"label/imagenet_labelling/images"                             #f"generated_images/{dataset_name}_inputs/{dataset_name}_{tool}"            
+        images_folder = f"experimental_data/imagenet_labels/imagenet_labelling/images"                             #f"generated_images/{dataset_name}_inputs/{dataset_name}_{tool}"            
         image_loc = f"{images_folder}/{file}"
         
         image = np.load(image_loc)[0].transpose((2,0,1))
@@ -76,4 +76,5 @@ def create_dataset_dict(input_data, dataset_name, question_marks="remove"):
         my_df["y_llm2"].append(image_info["ID/OOD LLM2"])
         my_df["y_llm3"].append(image_info["ID/OOD LLM3"])
     return my_df
+
 
