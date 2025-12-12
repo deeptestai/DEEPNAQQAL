@@ -7,6 +7,11 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 import torch.backends.cudnn as cudnn
+import os
+import sys
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(ROOT)
+from path_config import *
 
 import torchvision
 import torchvision.transforms as T
@@ -19,7 +24,7 @@ from utils.train import train_model
 import copy
 
 # Models for validator
-from models.ResNet50_transfer import ResNet50_transfer
+#from models.ResNet50_transfer import ResNet50_transfer
 from models.lenet1_transfer import lenet1_transfer
 from models.svhn_transfer import svhn_transfer
 from models.vgg16_transfer_svhn import vgg16_transfer_svhn
@@ -369,3 +374,4 @@ with open(f"{dest_folder}/SEED{RANDOM_SEED}_AUG{UPSAMPLE_TO}.txt", "w") as f:
     f.write("\n")
     f.write(f"{'Acc':5} = {acc:^10.3}|{acc_daiv:^10.3}|{acc_so:^10.3}|{acc_deepsvdd:^10.3}|{acc_llm:^10.3}|{acc_llm2:^10.3}|{acc_llm3:^10.3}")
     f.write("\n")
+
