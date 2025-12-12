@@ -2,6 +2,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(ROOT)
+from path_config import *
 
 import torch
 import torch.nn as nn
@@ -345,4 +348,5 @@ with open(f"{dest_folder}/SEED{RANDOM_SEED}_AUG{UPSAMPLE_TO}.txt", "w") as f:
     f.write("\n")
     f.write(f"{'Acc':6} = {acc:^10.3f}|{acc_daiv:^10.3f}|{acc_so:^10.3f}|{acc_deepsvdd:^10.3f}|{acc_llm:^10.3f}|{acc_llm2:^10.3f}|{acc_llm3:^10.3f}")  # Fixed floating point precision format
     f.write("\n")
+
 
