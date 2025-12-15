@@ -20,10 +20,10 @@ This repository is structured to support experiments focused on validating the p
 - **experimental_runs**  
   - Contains experiments for training and evaluating SL validators across datasets and research questions  
   - Subfolders:  
-    - `experiment_RQ1-2-3`  
+    - `experiment_RQ1-2`  
+    - `experiment_RQ3`  
     - `experiment_RQ4`  
     - `experiment_RQ5`  
-    - `experiment_RQ6`  
   > Each subfolder includes the main SL validator training scripts, used for comparison across datasets and validators.
 
 - **validators_for_comparison**  
@@ -79,10 +79,10 @@ Choose the appropriate training script based on your dataset and research questi
 - `train_imagenet.py` – for ImageNet dataset
 
 These scripts are organized under the corresponding experiment folders:
-- `experiment_RQ1-2-3`
+- `experiment_RQ1-2`
+- `experiment_RQ3`
 - `experiment_RQ4`
 - `experiment_RQ5`
-- `experiment_RQ6`
   
 Download pretrained classifier weights: [Click here](https://drive.google.com/drive/folders/1LBg29r7Y2bMNYPM8vt3FFuPcz2O1qKej?usp=drive_link)
 
