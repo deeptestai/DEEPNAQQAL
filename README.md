@@ -1,5 +1,5 @@
-# Automated Test Input Validators for Deep Learning: An Empirical Comparison
-This repository contains the source code and scripts used in our paper titled **"Automated Test Input Validators for Deep Learning: An Empirical Comparison"** by .... 
+# DEEPNAQQAL: Human-Aligned Automated Validation of Test Inputs for Deep Learning
+This repository contains the source code and scripts used in our paper titled **"DEEPNAQQAL: Human-Aligned Automated Validation of Test Inputs for Deep Learning"** by .... 
 
 ## 🔍 Motivation
 The primary goal of this study is to **empirically compare different test input validators** designed for deep learning models. Each validator is evaluated based on its **accuracy in detecting valid vs. invalid test inputs**, as well as its ability to identify the most reliable inputs and improve overall model reliability.
