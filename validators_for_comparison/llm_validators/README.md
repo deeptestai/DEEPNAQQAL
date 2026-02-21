@@ -27,7 +27,17 @@ Replace <dataset-name> with one of the following: mnist, svhn, or imagenet.
 
 > Note:Both GPT and LLaVA validators use the same prompt logic, tailored to the dataset selected.The key difference is in input type: GPT expects URLs pointing to images.LLaVA works with local .png image files.This dual setup allows consistent validation across models using different input modalities.
 
+### 3. LLM Validator Prompts
 
+### System Prompt (MNIST)
+
+Imagine you are an expert image assessor. Provide an evaluation of validity based on this definition: ``valid'' means recognizable by humans as part of the input domain, e.g., if an image of handwritten digits belongs to the domain of handwritten digits. If the image I provide you actually represents an image from the domain of handwritten digits, you answer `id'. If the image does not represent a handwritten digit, you answer `ood'. Return only `id' or `ood'. Do not include any other text, or explanations.
+
+---
+
+### User Prompt
+
+Evaluate this image based on the provided definition of validity.
 
 
 
