@@ -111,6 +111,22 @@ This configuration enables a **systematic comparison** of SL validator performan
 
 
 ## REFERENCE
+## Citation
+
+If you use DeepNaqqal in your research, please cite our paper:
+
+```bibtex
+@inproceedings{maryam2026deepnaqqal,
+  author    = {Maryam Maryam and Matteo Biagiola and Paolo Tonella and Vincenzo Riccio},
+  title     = {DeepNaqqal: Human-Aligned Automated Validation of Test Inputs for Deep Learning},
+  booktitle = {Proceedings of the IEEE International Conference on Software Testing, Verification and Validation (ICST)},
+  pages     = {76--87},
+  year      = {2026},
+  doi       = {10.1109/ICST69053.2026.00022}
+}
+```
+
+
 
 
 
