@@ -109,8 +109,6 @@ This configuration enables a **systematic comparison** of SL validator performan
 - **LLM Validator**: For configuration details and a full description, [click here](https://github.com/deeptestai/DL-validators-benchmark/tree/main/validators_for_comparison/llm_validators)
 - **Reconstuction-based validator** : For configuration and full description[ click here](https://github.com/deeptestai/DL-validators-benchmark/tree/main/validators_for_comparison/reconst_based_validators)
 
-
-## REFERENCE
 ## Citation
 
 If you use DeepNaqqal in your research, please cite our paper:
